@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins' ,sans-serif  ;
+    
+}
+body{
+    background: #222;
+}
+
+.card{
+    width: 90%;
+    
+    max-width: 450px;
+    background: linear-gradient(135deg,#00feba,#5b5485);
+    margin: 100px auto 0;
+    padding: 40px 35px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+}
+.search button img{
+    width: 67px;
+    height: 45px;
+    
+}
+.search button{
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+.search {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    height: 50px;
+    width: 80%;
+    border-radius: 20px;
+    font-size: 18px;
+    border: none;
+    padding: 30px;
+    font-size: 25px;
+}
+.wheather{
+    display: none;
+}
+.wheather img{
+    margin-top: 50px;
+}
+.wheather h1{
+    margin-top: 20px;
+    font-size: 50px;
+
+}
+.wheather h2{
+    font-size:40px ;
+    font-weight: lighter;
+}
+.details{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    
+}
+.humidity{
+    font-size: 30px;
+    padding: 0px;
+    margin-top: 46px;
+}
+.wind{
+    font-size:30px ;
+    padding: 0px;
+    margin-top: 46px;
+}
+
+
